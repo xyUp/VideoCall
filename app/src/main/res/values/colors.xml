@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2015 - 2017. 小石头信息技术有限公司 版权所有
+  ~
+  ~ 技术扣扣：1801902666
+  ~ 公司网站：http://www.shitouerp.com
+  -->
+
+<resources>
+    <color name="colorPrimary">#4fe0b3</color>
+
+    <color name="colorPress">#11000000</color>
+    <color name="colorDivier">#dedede</color>
+    <color name="colorSpinner">#cc000000</color>
+
+    <color name="colorTrans">#00ffffff</color>
+    <color name="colorTrans1">#40000000</color>
+    <color name="colorTrans2">#60000000</color>
+    <color name="colorBlack">#141c30</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlue">#69aaf3</color>
+    <color name="colorInkBlue">#495A80</color>
+    <color name="colorGreen">#4fe0b3</color>
+    <!--首页  科室医生   医药商城  蓝牙设备  用户中心的颜色-->
+    <color name="homeTextColor">#4fe0b3</color>
+    <color name="colorRed">#e0704f</color>
+    <color name="colorGray">#929292</color>
+    <color name="colorGrayLight">#f3f3f3</color>
+    <color name="colorOrange">#F76E41</color>
+    <color name="colorYellow">#FBA321</color>
+</resources>

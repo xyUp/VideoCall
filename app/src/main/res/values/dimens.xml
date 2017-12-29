@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2015 - 2017. 小石头信息技术有限公司 版权所有
+  ~
+  ~ 技术扣扣：1801902666
+  ~ 公司网站：http://www.shitouerp.com
+  -->
+
+<resources>
+
+    <!--字体大小-->
+    <dimen name="text_l">16sp</dimen>
+    <dimen name="text_m">14sp</dimen>
+    <dimen name="text_s">12sp</dimen>
+    <dimen name="text_xs">8sp</dimen>
+
+    <dimen name="blank_xs">2dp</dimen>
+    <dimen name="blank_s">5dp</dimen>
+    <dimen name="blank_m">10dp</dimen>
+    <dimen name="blank_l">15dp</dimen>
+
+    <dimen name="indicator_h">4dp</dimen>
+    <dimen name="radius">4dp</dimen>
+    <dimen name="imgv_txt_adjust">1.5dp</dimen>
+
+    <dimen name="divier_h_w">1dp</dimen>
+    <dimen name="divier_h">0.7dp</dimen>
+    <dimen name="scroll_bar_w">3dp</dimen>
+
+    <dimen name="row_h">45dp</dimen>
+    <dimen name="row_h_0.5">22.5dp</dimen>
+    <dimen name="row_h_0.25">11.25dp</dimen>
+    <dimen name="row_h_1.5">67.5dp</dimen>
+    <dimen name="row_h_2">90dp</dimen>
+    <dimen name="row_h_2.5">112.5dp</dimen>
+
+    <dimen name="row_icon_size">24dp</dimen>
+    <dimen name="row_icon_size_s">18dp</dimen>
+
+    <dimen name="margin_edge_m">25dp</dimen>
+    <dimen name="margin_edge_l">45dp</dimen>
+
+    <!--对话框-->
+    <dimen name="loading_dialog_w">150dp</dimen>
+    <dimen name="loading_dialog_h">80dp</dimen>
+    <dimen name="loading_dialog_icon_size">35dp</dimen>
+
+    <!--对话框-->
+    <dimen name="tip_dialog_w">270dp</dimen>
+    <dimen name="tip_dialog_top_mimh">70dp</dimen>
+
+    <!--spinner-->
+    <dimen name="spinner_head_size">10dp</dimen>
+    <dimen name="spinner_content_w">90dp</dimen>
+
+    <!--主界面-->
+    <dimen name="main_bottom_h">50dp</dimen>
+    <dimen name="main_bottom_image_size">25dp</dimen>
+    <dimen name="main_bottom_margin_t">4dp</dimen>
+    <dimen name="main_bottom_margin_b">2dp</dimen>
+
+    <dimen name="actbar_h">48dp</dimen>
+    <dimen name="actbar_back_w">12dp</dimen>
+    <dimen name="actbar_back_h">22dp</dimen>
+    <dimen name="actbar_image_size">22dp</dimen>
+    <dimen name="actbar_center_text">18sp</dimen>
+    <dimen name="actbar_right_text_w">60dp</dimen>
+
+    <dimen name="refresh_progress_size">20dp</dimen>
+    <dimen name="tip_frame_size">100dp</dimen>>
+    <dimen name="tip_icon_size">70dp</dimen>
+
+    <!--图片文字adapter-->
+    <dimen name="img_text_listview_img_size">45dp</dimen>
+    <dimen name="img_text_listview_divier_margin_l">65dp</dimen>
+
+    <!--箭头横向和竖向大小-->
+    <dimen name="arrow_h">10.5dp</dimen>
+    <dimen name="arrow_v">18dp</dimen>
+
+    <dimen name="arrow_h_s">7dp</dimen>
+    <dimen name="arrow_v_s">12dp</dimen>
+
+    <dimen name="call_head_img_size">70dp</dimen>
+    <dimen name="call_head_top_text_size">30sp</dimen>
+    <dimen name="call_ctrl_icon_size">55dp</dimen>
+    <dimen name="call_mini_icon_size">32dp</dimen>
+    <dimen name="call_video_local_w">80dp</dimen>
+    <dimen name="call_video_local_h">120dp</dimen>
+
+    <dimen name="call_float_video_oppo_w">@dimen/call_video_local_w</dimen>
+    <dimen name="call_float_video_oppo_h">@dimen/call_video_local_h</dimen>
+    <dimen name="call_float_video_local_w">36dp</dimen>
+    <dimen name="call_float_video_local_h">18dp</dimen>
+
+    <dimen name="call_float_voice_frame_w">80dp</dimen>
+    <dimen name="call_float_voice_frame_h">80dp</dimen>
+    <dimen name="call_float_voice_icon_w">50dp</dimen>
+    <dimen name="call_float_voice_icon_h">21dp</dimen>
+
+    <!--启动界面-->
+    <dimen name="skip_icon_w">137dp</dimen>
+    <dimen name="skip_icon_h">132dp</dimen>
+
+    <!--登录和注册-->
+    <dimen name="login_top_h">245dp</dimen>
+
+    <!--照片选择-->
+    <dimen name="image_camera_size">45dp</dimen>
+    <dimen name="image_grdv_cbx_size">20dp</dimen>
+    <dimen name="image_folder_list_rdobtn_size">20dp</dimen>
+    <dimen name="image_folder_list_image_size">40dp</dimen>
+
+    <!--选择器-->
+    <dimen name="picker_view_h">240dp</dimen>
+    <dimen name="picker_view_single_w">50dp</dimen>
+
+    <!--开关-->
+    <dimen name="switch_button_w">46dp</dimen>
+    <dimen name="switch_button_h">26dp</dimen>
+
+    <!--buttonMargin-->
+    <dimen name="button_margin">40dp</dimen>
+
+    <!--JPush-->
+    <dimen name="jpush_dialog_w">280dp</dimen>
+    <dimen name="jpush_dialog_h">250dp</dimen>
+
+    <!--药品列表-->
+    <dimen name="drug_list_img_h">50dp</dimen>
+    <dimen name="drug_list_img_w">71dp</dimen>
+    <dimen name="drug_list_btn_w">80dp</dimen>
+    <dimen name="drug_list_btn_h">40dp</dimen>
+
+    <!--选择药品对话框-->
+    <dimen name="durg_dialog_btn_h">30dp</dimen>
+    <dimen name="durg_dialog_btn_w">42dp</dimen>
+
+    <dimen name="flowlayout_h">30dp</dimen>
+    <dimen name="flowlayout_h_half">15dp</dimen>
+
+    <dimen name="comment_head_size">45dp</dimen>
+</resources>

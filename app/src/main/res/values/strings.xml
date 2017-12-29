@@ -1,0 +1,274 @@
+<!--
+  ~ Copyright (c) 2015 - 2017. 小石头信息技术有限公司 版权所有
+  ~
+  ~ 技术扣扣：1801902666
+  ~ 公司网站：http://www.shitouerp.com
+  -->
+
+<resources>
+
+    <!--&#32;   == 普通的英文半角空格-->
+    <!--&#160;  == &nbsp; == &#xA0; == no-break space （普通的英文半角空格但不换行）-->
+    <!--&#12288;    == 中文全角空格 （一个中文宽度）-->
+    <!--&#8194;     == &ensp; == en空格 （半个中文宽度）-->
+    <!--&#8195;     == &emsp; == em空格 （一个中文宽度）-->
+    <!--&#8197;     == 四分之一em空格 （四分之一中文宽度）-->
+
+    <string name="app_name">惠民医生</string>
+
+    <!--Activity标题-->
+    <string name="at_image_chose">选择图片</string>
+    <string name="at_image_crop">裁剪图片</string>
+    <string name="at_image_preview">预览图片</string>
+    <string name="at_reset_password">修改密码</string>
+    <string name="at_setting">设置</string>
+    <string name="at_search_drug">药品搜索</string>
+
+    <string name="at_record">我的病历</string>
+    <string name="at_record_detail">病历详情</string>
+    <string name="at_submit_comment">评价</string>
+    <string name="at_patient_record">过往病历</string>
+    <string name="at_submit_chronic">添加慢性病</string>
+    <string name="at_submit_share_app">分享医云康</string>
+    <string name="at_service_term">服务条款</string>
+
+    <!--提示-->
+    <string name="tip_user_info_sumit_success">个人信息提交成功</string>
+    <string name="tip_user_sumit_success">慢性病提交成功</string>
+    <string name="tip_user_past_sumit_success">过往史提交成功</string>
+    <string name="tip_reset_password_success">个人信息提交成功</string>
+    <string name="tip_press_again_to_quit">在按一次返回键退出</string>
+    <string name="tip_call">医生邀请您进行在线会诊，点击查看。</string>
+    <string name="tip_health_care_record_success">妇保儿保记录提交成功</string>
+    <string name="tip_feed_back_sumit_success">意见反馈提交成功</string>
+
+    <!--错误-->
+    <string name="err_requst_failed">请求服务器失败</string>
+    <string name="err_network_failed">网络连接失败</string>
+    <string name="err_exist_image_blank">头像不能为空哦，请上传头像</string>
+    <string name="err_exist_blank">请补全空白内容</string>
+    <string name="err_phone_number_format_incorrect">手机号码格式不正确</string>
+    <string name="err_check_format_incorrect">验证码格式不正确</string>
+    <string name="err_check_idnum_incorrect">身份证格式不正确</string>
+    <string name="err_cant_overlay">已禁用悬浮窗，请开启</string>
+    <string name="err_unknown">未知错误，请再试一次</string>
+
+    <string name="common_edit">编辑</string>
+    <string name="common_save">保存</string>
+    <string name="common_submit">提交</string>
+    <string name="common_sure">确定</string>
+    <string name="common_add">添加</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_select">选择</string>
+    <string name="common_select_all">全选</string>
+    <string name="common_please_select">请选择</string>
+    <string name="common_please_type">请填写</string>
+    <string name="common_typed">已填写</string>
+    <string name="common_complete">完成</string>
+    <string name="common_delete">删除</string>
+    <string name="common_to_collect">收藏</string>
+    <string name="common_have_collected">已收藏</string>
+    <string name="common_delete_selected">删除选中</string>
+    <string name="common_normal">正常</string>
+    <string name="common_abnormal">异常</string>
+    <string name="common_next_step">下一步</string>
+    <string name="common_refresh">刷新</string>
+    <string name="common_vertical_line" formatted="false">%s&#8197;|&#8197;%s</string>
+    <string name="common_reset_date">重设日期</string>
+    <string name="common_date">日期</string>
+    <string name="common_select_one_at_least">请至少选择一个</string>
+    <string name="common_back">返回</string>
+    <string name="common_trend">趋势</string>
+    <string name="common_can_not_change">不可修改</string>
+    <string name="common_maxlen_tip">做多可输入%d个汉字</string>
+    <string name="common_share">分享</string>
+
+    <!--MVCHelper提示-->
+    <string name="mvc_empty">空空一片，没有任何东西~</string>
+    <string name="refresh_time_tip">上次刷新时间%s</string>
+
+    <string name="keep_pulling_down">继续下拉</string>
+    <string name="release_to_refresh">释放刷新</string>
+    <string name="refreshing">正在刷新，请稍等一下</string>
+    <string name="refresh_completely">刷新完成</string>
+
+    <string name="click_to_load">点击加载更多</string>
+    <string name="loading">正在加载，请稍等一下</string>
+    <string name="failed_and_reload">加载失败，请点击重试一下吧~</string>
+    <string name="load_completely">加载完成，没有更多内容了哟~</string>
+
+    <!--语音通话界面-->
+    <string name="call_ctrl_switch">切换摄像头</string>
+    <string name="call_ctrl_end">结束</string>
+    <string name="call_ctrl_answer">接听</string>
+    <string name="call_ctrl_reject">挂断</string>
+    <string name="call_ctrl_trans">转诊</string>
+
+    <!--通话方面的提示信息-->
+    <string name="call_video_in_tip">邀请你进行视频聊天</string>
+    <string name="call_video_out_tip">正在等待对方接受邀请</string>
+    <string name="call_accepted">通话已接通</string>
+    <string name="call_busy">对方正忙</string>
+    <string name="call_cancel_local">已取消</string>
+    <string name="call_cancel_oppo">对方已取消</string>
+    <string name="call_connect_failed">建立连接失败</string>
+    <string name="call_duration_time">通话时长</string>
+    <string name="call_no_response">对方可能在忙，建议稍后拨打</string>
+    <string name="call_offline">对方不在线</string>
+    <string name="call_reject_oppo">对方已拒绝</string>
+    <string name="call_reject_local">已拒绝</string>
+
+    <!--登录注册-->
+    <string name="login_account_tip">请输入手机号</string>
+    <string name="login_pwd_tip">请输入密码</string>
+    <string name="login_forget_pwd">忘记密码</string>
+    <string name="login_btn_submit">登录</string>
+
+    <string name="regist_get_check">获取验证码</string>
+    <string name="regist_get_check_counter">%s秒</string>
+    <string name="regist_get_check_success">验证码获取成功</string>
+    <string name="regist_check_tip">请输入验证码</string>
+    <string name="regist_right_tip">已阅读并同意《医云康服务条款》</string>
+    <string name="regist_right_uncheck_tip">您必须同意服务条款，才能注册</string>
+    <string name="regist_btn_next">下一步</string>
+    <string name="regist_pwd_confirm_tip">请再次输入密码</string>
+    <string name="regist_pwd_short_tip">请至少输入6位数密码</string>
+    <string name="regist_pwd_inconformity_tip">两次密码不一致，请重新输入</string>
+    <string name="regist_btn_submit">注册</string>
+    <string name="regist_success_tip">恭喜您注册成功，请登录</string>
+
+    <string name="reset_btn_submit">重置</string>
+    <string name="reset_success_tip">您的密码重置成功，请使用新密码登录</string>
+    <string name="reset_phone_success">你的手机号修改成功，请使用新手机号登录</string>
+
+
+    <!--图片选择-->
+    <string name="image_picker_select_limit">最多选择%d张图片</string>
+    <string name="image_picker_all_images">全部图片</string>
+    <string name="image_picker_take_photo">拍摄照片</string>
+    <string name="image_picker_count">共%d张</string>
+    <string name="image_picker_preview_count">预览(%d)</string>
+
+    <!--选择器-->
+    <string name="picker_city_tip">请选择地区</string>
+    <string name="picker_sex_tip">请选择性别</string>
+    <string name="picker_time_tip">请选择时间</string>
+    <string name="picker_age_tip">请选择年龄</string>
+    <string name="picker_signs_tip">请选择身高和体重</string>
+
+    <string name="picker_time_year">年</string>
+    <string name="picker_time_month">月</string>
+    <string name="picker_time_day">日</string>
+    <string name="picker_time_hour">时</string>
+    <string name="picker_time_min">分</string>
+    <string name="picker_age_unit">周岁</string>
+    <string name="picker_signs_height_unit">cm</string>
+    <string name="picker_signs_weight_unit">kg</string>
+
+    <!--可展开的TextView-->
+    <string name="expandable_textview_shrink">收起</string>
+    <string name="expandable_textview_expand">查看详情</string>
+
+    <!--权限-->
+    <string name="per_rationale_tip">尊敬的用户您好，为了保证您能正常使用软件，请在弹出的权限对话框中点击允许。</string>
+    <string name="per_never_ask_tip">软件无法获取部分权限，点击设置，前往应用信息>权限中打开，点击取消退出。</string>
+    <string name="per_go_setting">去设置</string>
+
+    <!--设置-->
+    <string name="setting_feedback">意见反馈</string>
+    <string name="setting_about">关于我们</string>
+    <string name="setting_help">使用帮助</string>
+    <string name="setting_version">当前版本</string>
+    <string name="setting_change_pwd">修改密码</string>
+    <string name="setting_change_phonenumber">修改手机号</string>
+    <string name="setting_clean">清除缓存</string>
+    <string name="setting_quit">退出登录</string>
+    <string name="setting_quit_tip">确认退出当前账号？退出后您将收不到任何提示信息，如果您有预诊，建议您取消此操作。</string>
+
+    <!--查找药品-->
+    <string name="search_drug_tip">请输入药品名称</string>
+
+    <!--查找药店-->
+    <string name="select_drugstore_tip">请输入药店所在区域</string>
+
+    <!--查找药品-->
+    <string name="search_doctor_tip">请输入医生名称</string>
+
+    <!--星期-->
+    <string name="week_mon">一</string>
+    <string name="week_tues">二</string>
+    <string name="week_wed">三</string>
+    <string name="week_thur">四</string>
+    <string name="week_fri">五</string>
+    <string name="week_sat">六</string>
+    <string name="week_sun">日</string>
+
+    <!--医生开药和患者购买对话框-->
+    <string name="drug_dialog_count">数量</string>
+    <string name="drug_dialog_usage_tip">用法用量</string>
+
+    <!--药品属性-->
+    <string name="drug_spec">规格：%s</string>
+    <string name="drug_rest">库存&#8197;%s</string>
+    <string name="drug_original_price">原价&#8197;¥%s</string>
+    <string name="drug_price">¥%s</string>
+    <string name="drug_count_price" formatted="false">%s&#8197;×&#8197;¥%s</string>
+
+    <!--修改手机号-->
+    <string name="reset_phone">修改手机号</string>
+    <string name="input_phone_number">请输入当前账号</string>
+    <string name="input_new_phone_number">请输入您的新手机号</string>
+    <string name="input_pwd">请输入当前账号密码</string>
+    <string name="btn_next">下一步</string>
+    <string name="reset_phone_number">请输入新的手机号</string>
+    <string name="input_new_pwd">请输入新密码</string>
+
+    <!--曲线展示界面-->
+    <string name="device_trend_sugar">血糖值mmol/l</string>
+    <string name="device_trend_pressure_high">高压mmHg</string>
+    <string name="device_trend_pressure_low">低压mmHg</string>
+    <string name="device_trend_heart_beat">心率bpm</string>
+
+    <!--提交评价-->
+    <string name="submit_comment_score">评分</string>
+    <string name="submit_comment_tip">你对医生有哪些满意或者不满意的地方？快来评价一下吧！</string>
+    <string name="submit_comment_exist_blank">请对医生留下只言片语吧</string>
+
+    <!--患者我的病历-->
+    <string name="record_doctor_name">医生名称</string>
+    <string name="record_md_name">导医名称</string>
+    <string name="record_time">就诊时间</string>
+    <string name="record_reason">就诊原因</string>
+    <string name="record_md_result">拟诊结果</string>
+    <string name="record_md_advice">导医建议</string>
+    <string name="record_docotr_result">诊断结果</string>
+    <string name="record_doctor_advice">医生建议</string>
+    <string name="record_comment">评价医生</string>
+    <!--消息中心-->
+    <string name="my_message_time">时间</string>
+    <string name="my_message_content">消息内容</string>
+
+    <string name="add_health_care_record">添加</string>
+
+    <string name="tv_share_patient">医云康</string>
+    <string name="tv_share_doctor">医云康医生版</string>
+
+    <!--意见反馈-->
+    <string name="feed_back">请填写您的反馈意见</string>
+    
+    <!--添加常用语-->
+    <string name="add_usual_word">添加常用语</string>
+
+    <!--微信-->
+    <string name="errcode_success">发送成功</string>
+    <string name="errcode_cancel">发送取消</string>
+    <string name="errcode_fail">发送失败</string>
+    <string name="errcode_deny">发送被拒绝</string>
+    <string name="errcode_unsupported">不支持错误</string>
+    <string name="errcode_unknown">发送返回</string>
+    <string name="share_to_friends">朋友</string>
+    <string name="share_to_friends_circle">朋友圈</string>
+
+    <string name="user_info_summary">简介</string>
+    <string name="user_info_specialty">专长</string>
+</resources>

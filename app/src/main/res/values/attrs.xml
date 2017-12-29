@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2015 - 2017. 小石头信息技术有限公司 版权所有
+  ~
+  ~ 技术扣扣：1801902666
+  ~ 公司网站：http://www.shitouerp.com
+  -->
+
+<resources>
+    <declare-styleable name="IconFriendlyRadioButton">
+        <attr name="tbdrawable_width" format="dimension"/>
+        <attr name="tbdrawable_height" format="dimension"/>
+        <attr name="tbdrawable_top" format="reference"/>
+        <attr name="tbdrawable_bottom" format="reference"/>
+        <attr name="tbdrawable_right" format="reference"/>
+        <attr name="tbdrawable_left" format="reference"/>
+    </declare-styleable>
+
+    <!--ActionBar-->
+    <declare-styleable name="CommonActionbar">
+        <attr name="auto_finish" format="boolean"/>
+        <attr name="text_center" format="string|reference"/>
+        <attr name="right_type">
+            <enum name="text" value="0"/>
+            <enum name="spinner" value="1"/>
+            <enum name="icon" value="2"/>
+        </attr>
+        <attr name="text_right" format="string|reference"/>
+        <attr name="icon_right" format="reference"/>
+        <attr name="spinner_right" format="reference"/>
+    </declare-styleable>
+
+    <!--圆角图片-->
+    <declare-styleable name="RoundedImageView">
+        <attr name="riv_corner_radius" format="dimension"/>
+        <attr name="riv_corner_radius_top_left" format="dimension"/>
+        <attr name="riv_corner_radius_top_right" format="dimension"/>
+        <attr name="riv_corner_radius_bottom_left" format="dimension"/>
+        <attr name="riv_corner_radius_bottom_right" format="dimension"/>
+        <attr name="riv_border_width" format="dimension"/>
+        <attr name="riv_border_color" format="color"/>
+        <attr name="riv_mutate_background" format="boolean"/>
+        <attr name="riv_oval" format="boolean"/>
+        <attr name="android:scaleType"/>
+        <attr name="riv_tile_mode">
+            <enum name="clamp" value="0"/>
+            <enum name="repeat" value="1"/>
+            <enum name="mirror" value="2"/>
+        </attr>
+        <attr name="riv_tile_mode_x">
+            <enum name="clamp" value="0"/>
+            <enum name="repeat" value="1"/>
+            <enum name="mirror" value="2"/>
+        </attr>
+        <attr name="riv_tile_mode_y">
+            <enum name="clamp" value="0"/>
+            <enum name="repeat" value="1"/>
+            <enum name="mirror" value="2"/>
+        </attr>
+    </declare-styleable>
+
+    <!--三角形标志-->
+    <declare-styleable name="TriangleIndicator">
+        <attr name="item_count" format="integer"/>
+    </declare-styleable>
+
+    <!--图片裁剪-->
+    <declare-styleable name="CropImageView">
+        <attr name="cropMaskColor" format="color"/>
+        <attr name="cropBorderColor" format="color"/>
+        <attr name="cropBorderWidth" format="dimension"/>
+        <attr name="cropFocusWidth" format="dimension"/>
+        <attr name="cropFocusHeight" format="dimension"/>
+        <attr name="cropStyle" format="enum">
+            <enum name="rectangle" value="0"/>
+            <enum name="circle" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <!--星星-->
+    <declare-styleable name="SimpleRatingBar">
+        <attr name="srb_borderColor" format="color"/>
+        <attr name="srb_fillColor" format="color"/>
+        <attr name="srb_backgroundColor" format="color"/>
+        <attr name="srb_starBackgroundColor" format="color"/>
+        <attr name="srb_pressedBorderColor" format="color"/>
+        <attr name="srb_pressedFillColor" format="color"/>
+        <attr name="srb_pressedBackgroundColor" format="color"/>
+        <attr name="srb_pressedStarBackgroundColor" format="color"/>
+        <attr name="srb_numberOfStars" format="integer"/>
+        <attr name="srb_starSize" format="dimension"/>
+        <attr name="srb_maxStarSize" format="dimension"/>
+        <attr name="srb_starsSeparation" format="dimension"/>
+        <attr name="srb_starBorderWidth" format="float"/>
+        <attr name="srb_starCornerRadius" format="float"/>
+        <attr name="srb_isIndicator" format="boolean"/>
+        <attr name="srb_rating" format="float"/>
+        <attr name="srb_stepSize" format="float"/>
+        <attr name="srb_drawBorderEnabled" format="boolean"/>
+        <attr name="srb_gravity" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <!--可折叠的TextView-->
+    <declare-styleable name="ExpandableTextView">
+        <attr name="et_expandLines" format="integer"/>
+        <attr name="et_shrinkBitmap" format="reference"/>
+        <attr name="et_expandBitmap" format="reference"/>
+        <attr name="et_textShrink" format="string"/>
+        <attr name="et_textExpand" format="string"/>
+    </declare-styleable>
+
+    <!--比例ImageView-->
+    <declare-styleable name="RatioImageView">
+        <!--宽度是否根据src图片的比例来测量（高度已知）-->
+        <attr name="is_width_fix_drawable_size_ratio" format="boolean"/>
+        <!--高度是否根据src图片的比例来测量（宽度已知）-->
+        <attr name="is_height_fix_drawable_size_ratio" format="boolean"/>
+        <!-- 高度设置，参考宽度，如0.5 , 表示 高度＝宽度×０.5 -->
+        <attr name="height_to_width_ratio" format="float"/>
+        <!-- 宽度设置，参考高度，如0.5 , 表示 宽度＝高度×０.5 -->
+        <attr name="width_to_height_ratio" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="NCalendar">
+        <attr name="solarTextColor" format="color"/>
+        <attr name="lunarTextColor" format="color"/>
+        <attr name="hintColor" format="color"/>
+        <attr name="selectCircleColor" format="color"/>
+        <attr name="solarTextSize" format="dimension"/>
+        <attr name="lunarTextSize" format="dimension"/>
+        <attr name="selectCircleRadius" format="integer"/>
+        <attr name="isShowLunar" format="boolean"/>
+
+        <attr name="pointSize" format="dimension"/>
+        <attr name="pointcolor" format="color"/>
+        <attr name="hollowCircleColor" format="color"/>
+        <attr name="hollowCircleStroke" format="integer"/>
+        <attr name="startDateTime" format="string"/>
+        <attr name="endDateTime" format="string"/>
+
+        <attr name="calendarHeight" format="dimension"/>
+        <attr name="isMultiple" format="boolean"/>
+        <attr name="duration" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="WheelPicker">
+        <attr name="wheel_data" format="reference"/>
+        <attr name="wheel_selected_item_position" format="integer"/>
+        <attr name="wheel_item_text_size" format="dimension"/>
+        <attr name="wheel_item_text_color" format="color"/>
+        <attr name="wheel_selected_item_text_color" format="color"/>
+        <attr name="wheel_same_width" format="boolean"/>
+        <attr name="wheel_maximum_width_text" format="string"/>
+        <attr name="wheel_maximum_width_text_position" format="integer"/>
+        <attr name="wheel_visible_item_count" format="integer"/>
+        <attr name="wheel_item_space" format="dimension"/>
+        <attr name="wheel_cyclic" format="boolean"/>
+        <attr name="wheel_indicator" format="boolean"/>
+        <attr name="wheel_indicator_color" format="color"/>
+        <attr name="wheel_indicator_size" format="dimension"/>
+        <attr name="wheel_curtain" format="boolean"/>
+        <attr name="wheel_curtain_color" format="color"/>
+        <attr name="wheel_atmospheric" format="boolean"/>
+        <attr name="wheel_curved" format="boolean"/>
+        <attr name="wheel_item_align" format="enum">
+            <enum name="center" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable>
+
+    <!--banner-->
+    <declare-styleable name="Banner">
+        <attr name="delay_time" format="integer"/>
+        <attr name="scroll_time" format="integer"/>
+        <attr name="is_auto_play" format="boolean"/>
+        <attr name="title_background" format="color|reference"/>
+        <attr name="title_textcolor" format="color"/>
+        <attr name="title_textsize" format="dimension"/>
+        <attr name="title_height" format="dimension"/>
+        <attr name="indicator_width" format="dimension"/>
+        <attr name="indicator_height" format="dimension"/>
+        <attr name="indicator_margin" format="dimension"/>
+        <attr name="indicator_drawable_selected" format="reference"/>
+        <attr name="indicator_drawable_unselected" format="reference"/>
+        <attr name="layout_id" format="reference"/>
+        <attr name="image_scale_type" format="enum">
+            <enum name="center" value="0"/>
+            <enum name="center_crop" value="1"/>
+            <enum name="center_inside" value="2"/>
+            <enum name="fit_center" value="3"/>
+            <enum name="fit_end" value="4"/>
+            <enum name="fit_start" value="5"/>
+            <enum name="fit_xy" value="6"/>
+            <enum name="matrix" value="7"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="JustifyTextView">
+        <attr name="align" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable>
+
+</resources>

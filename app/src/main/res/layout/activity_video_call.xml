@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/colorBlack"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="false">
+
+
+    <!--两个视频界面-->
+    <FrameLayout
+        android:id="@+id/flay_call_ctrl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--对方-->
+        <com.hyphenate.media.EMCallSurfaceView
+            android:id="@+id/em_oppo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <!--本地-->
+        <com.hyphenate.media.EMCallSurfaceView
+            android:id="@+id/em_local"
+            android:layout_width="@dimen/call_video_local_w"
+            android:layout_height="@dimen/call_video_local_h"
+            android:layout_gravity="top|right"
+            android:layout_margin="@dimen/blank_m"/>
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imgv_call_mini"
+        android:layout_width="@dimen/call_mini_icon_size"
+        android:layout_height="@dimen/call_mini_icon_size"
+        android:layout_gravity="top|left"
+        android:layout_margin="@dimen/blank_m"
+        android:src="@drawable/call_mini"
+        android:visibility="visible"/>
+
+    <include
+        android:id="@+id/llay_call_header"
+        layout="@layout/view_call_header"/>
+
+    <include
+        android:id="@+id/llay_call_footer"
+        layout="@layout/view_call_footer"/>
+
+</android.support.design.widget.CoordinatorLayout>

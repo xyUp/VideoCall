@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2015 - 2017. 小石头信息技术有限公司 版权所有
+  ~
+  ~ 技术扣扣：1801902666
+  ~ 公司网站：http://www.shitouerp.com
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="bottom"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtv_call_footer_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_s"
+        android:visibility="invisible"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/blank_l"
+        android:paddingTop="@dimen/blank_l">
+        <!--切换摄像头-->
+        <LinearLayout
+            android:id="@+id/llay_call_footer_switch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/call_ctrl_icon_size"
+                android:layout_height="@dimen/call_ctrl_icon_size"
+                android:src="@drawable/call_switch"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/blank_s"
+                android:text="@string/call_ctrl_switch"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_s"/>
+        </LinearLayout>
+
+
+        <!--挂断-->
+        <LinearLayout
+            android:id="@+id/llay_call_footer_reject"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/call_ctrl_icon_size"
+                android:layout_height="@dimen/call_ctrl_icon_size"
+                android:src="@drawable/call_cancel"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/blank_s"
+                android:text="@string/call_ctrl_reject"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_s"/>
+        </LinearLayout>
+
+        <!--接听-->
+        <LinearLayout
+            android:id="@+id/llay_call_footer_answer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/call_ctrl_icon_size"
+                android:layout_height="@dimen/call_ctrl_icon_size"
+                android:src="@drawable/call_answer"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/blank_s"
+                android:text="@string/call_ctrl_answer"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_s"/>
+        </LinearLayout>
+
+        <!--取消-->
+        <LinearLayout
+            android:id="@+id/llay_call_footer_end"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/call_ctrl_icon_size"
+                android:layout_height="@dimen/call_ctrl_icon_size"
+                android:src="@drawable/call_cancel"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/blank_s"
+                android:text="@string/call_ctrl_end"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_s"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llay_call_footer_trans"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="@dimen/call_ctrl_icon_size"
+                android:layout_height="@dimen/call_ctrl_icon_size"
+                android:src="@drawable/call_switch"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/blank_s"
+                android:text="@string/call_ctrl_switch"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_s"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
